@@ -1,0 +1,5 @@
+conda list | awk '{print $1}'
+conda list | awk '{print $1, $2}'
+more /usr/bin/anaconda/pkgs/numpy*/info/index.json
+pip search tesseract
+pip search tesseract | awk '{print $1, $2}'
